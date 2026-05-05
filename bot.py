@@ -25,7 +25,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = os.getenv("8413954282:AAE8KIsf0MwL5S3lUKj3i3-Ju0f4XFAIrq0")
 if not TOKEN:
     raise RuntimeError("TELEGRAM_BOT_TOKEN is not set!")
 
