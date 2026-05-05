@@ -25,9 +25,9 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-TOKEN = os.getenv("8413954282:AAE8KIsf0MwL5S3lUKj3i3-Ju0f4XFAIrq0")
+TOKEN = os.getenv("Token")
 if not TOKEN:
-    raise RuntimeError("TELEGRAM_BOT_TOKEN is not set!")
+    raise RuntimeError("8413954282:AAE8KIsf0MwL5S3lUKj3i3-Ju0f4XFAIrq0")
 
 bot = telebot.TeleBot(TOKEN, parse_mode="Markdown")
 
